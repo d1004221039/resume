@@ -82,7 +82,7 @@ introduceItemBTN1.addEventListener("click", (e) => {
   if (e.target.localName != "div") {
     console.log(e.target.innerText);
     introduceItemImg1.src =
-      "./assets/img/company/7PK/" + e.target.innerText + ".gif";
+      "./assets/img/company/7PK/" + e.target.innerText + ".mp4";
   }
 });
 
@@ -90,6 +90,6 @@ introduceItemBTN2.addEventListener("click", (e) => {
   if (e.target.localName != "div") {
     console.log(e.target.innerText);
     introduceItemImg2.src =
-      "./assets/img/company/huga/" + e.target.innerText + ".gif";
+      "./assets/img/company/huga/" + e.target.innerText + ".mp4";
   }
 });
