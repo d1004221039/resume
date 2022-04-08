@@ -11876,12 +11876,17 @@ section#contact form#contactForm :-ms-input-placeholder {
 .company-container {
   position: absolute;
 
-  width: 90%;
+  width: 60%;
   height: 67%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #dfe6e9;
+}
+@media (max-width: 1023px) {
+  .company-container {
+    width: 100%;
+  }
 }
 .Close-container {
   height: 50px;
@@ -11897,12 +11902,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   float: left;
 }
 .introduce-Item {
-  width: 50%;
+  width: 80%;
   box-sizing: border-box;
   /* display: inline-block; */
   float: left;
   border: 10px solid #dfe6e9;
 }
+
 @media (max-width: 1023px) {
   .introduce-Item {
     width: 100%;
@@ -11927,5 +11933,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (max-width: 1023px) {
   .body-container button {
     display: inline;
+  }
+}
+
+.web-design-div {
+  padding: 3rem;
+}
+@media (max-width: 1023px) {
+  .web-design-div {
+    padding: 0px;
   }
 }
